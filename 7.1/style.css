@@ -1,0 +1,28 @@
+body
+{
+  margin:250px auto auto 550px;
+  background-color:black;
+}
+
+
+.rowbx
+{
+  display:grid;
+  grid-template-rows:auto auto auto;
+}
+
+[class^="col"]
+{
+  display:grid;
+  grid-template-columns:1fr 2fr 1fr;
+  background-color:#84b2ff;
+  width:400px;
+  height:75px;
+  border:3px solid rgba(255,255,119,255);
+}
+
+
+[class^="c"]
+{
+  border:3px solid #ffeb89;
+}
