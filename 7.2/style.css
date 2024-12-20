@@ -88,11 +88,11 @@
 
 .main
 {
-  display:flex;
-  flex-direction:rows;
+  display:grid;
+  grid-template-columns:1fr 1fr;
   gap:20px;
   height:570px;
-  width:1270px;
+  width:1470px;
   margin-bottom:50px;
 }
 
@@ -128,21 +128,24 @@
 
 .tflex
 {
-  display:flex;
-  flex-direction:column;
-  gap:15px;
+  display:grid;
+  height:580px;
+  width:400px;
+  /*border:4px solid rgb(34, 12, 205); */
+  grid-template-columns:30px;
+  gap:1px;
+  padding-left:3px;
 }
 
 
 .suppbox
 {
-  display:flex;
-  flex-direction:row;
-  width:1200px;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  width:970px;
   height:400px;
   gap:50px;
-  position:absolute;
-  margin-left:58px;
+  margin-left:56px;
 }
 
 
@@ -156,7 +159,6 @@
 
 .bmar11
 {
-  width:1690px;
   height:60px;
   display:flex;
   gap:600px;
@@ -169,7 +171,8 @@
   margin:auto auto 50px auto;
 }
 
-.bmarch1
+
+   .bmarch1
 {
   display:flex;
   flex-direction:row;
@@ -211,4 +214,4 @@
 {
   display:flex;
   flex-direction:row;
-}
+} 
