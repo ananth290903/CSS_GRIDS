@@ -1,0 +1,214 @@
+/*
+
+.sbar
+{
+  height:80px;
+  width:180px;
+  border:3px solid black;
+  box-sizing:border-box;
+  text-align:center;
+  
+}
+
+.bmar
+{
+  width:1690px;
+  height:70px;
+  display:flex;
+  gap:80px;
+  color:white;
+  box-sizing:border-box;
+  font-family:arial,Times serif;
+  font-weight:600;
+  padding-top:10px;
+  padding-left:130px;
+  background-color:#fa5164;
+}
+ 
+
+.bpiece
+{
+  width:700px;
+  height:550px;
+  margin-left:50px;
+  background-color:blue;
+}
+
+.mpiece
+{
+  width:350px;
+  height:400px;
+  background-color:pink;
+  
+}
+
+.spiece
+{
+  background-color:red;
+  width:350px;
+  height:150px;
+}
+
+
+
+.main
+{
+  display:flex;
+  flex-direction:rows;
+  gap:20px;
+}
+
+
+.tflex
+{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.suppbox
+{
+  display:grid;
+  width:1200px;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+}
+
+[class^="b"]
+{
+  width:270px;
+  height:330px;
+  background-color:pink;
+} 
+
+
+*/
+
+
+
+
+.main
+{
+  display:flex;
+  flex-direction:rows;
+  gap:20px;
+  height:570px;
+  width:1270px;
+  margin-bottom:50px;
+}
+
+.bigpiece
+{
+  width:680px;
+  height:565px;
+  margin-left:50px;
+  background-color:blue;
+  box-sizing:border-box;
+  position:relative;
+ 
+}
+
+.mpiece
+{
+  width:300px;
+  height:400px;
+  background-color:pink;
+  box-sizing:border-box;
+  position:relative;
+  
+}
+
+.spiece
+{
+  background-color:red;
+  width:300px;
+  height:150px;
+  box-sizing:border-box;
+  position:relative;
+}
+
+.tflex
+{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+
+.suppbox
+{
+  display:flex;
+  flex-direction:row;
+  width:1200px;
+  height:400px;
+  gap:50px;
+  position:absolute;
+  margin-left:58px;
+}
+
+
+[class^="b-"]
+{
+  width:210px;
+  height:265px;
+  background-color:pink;
+  position:relative;
+} 
+
+.bmar11
+{
+  width:1690px;
+  height:60px;
+  display:flex;
+  gap:600px;
+  color:white;
+  box-sizing:border-box;
+  font: 14px arial,Times serif;
+  font-weight:600;
+  padding:10px auto auto 130px;
+  background-color:#fa5164;
+  margin:auto auto 50px auto;
+}
+
+.bmarch1
+{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  gap:35px;
+  position:relative;
+  padding-left:100px;
+ 
+}
+
+.bmarch2
+{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  gap:15px;
+  position:relative;
+}
+
+
+.XMI
+{
+  font:30px Sans-Serif,Arial;
+  font-weight:600;
+  transform: scale(1, 1.5);
+  margin-left:700px;
+  
+}
+
+.TNEWS
+{
+  font:15px Sans-Serif,Arial;
+  font-weight:600;
+  transform: scale(1, 1.5);
+  margin:auto auto auto 45px;
+}
+
+.major
+{
+  display:flex;
+  flex-direction:row;
+}
